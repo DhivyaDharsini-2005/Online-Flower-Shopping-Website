@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You - Bloomify</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .thankyou-container {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .thankyou-container h1 {
+      font-size: 2.5em;
+      color: #e63946;
+      margin-bottom: 20px;
+    }
+    .thankyou-container p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    .thankyou-container a {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #e63946;
+      color: #fff;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: .3s;
+    }
+    .thankyou-container a:hover {
+      background: #b71c1c;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">
+      <img src="C:\Users\Dhivya\OneDrive\Pictures\logo.jpg" alt="Bloomify Logo">
+      <span style="font-size:32px;"><i>Bloomify</i></span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="thankyou-container section">
+  <h1>🎉 Thank You for Your Order!</h1>
+  <p>Your flowers will be delivered with love 💐.<br>
+     We’ve also sent a confirmation email with your order details.</p>
+  <div id="orderSummary" class="cart-summary" style="margin:20px auto; max-width:400px; text-align:left;">
+    <h2>Order Summary</h2>
+    <p><strong>Subtotal:</strong> <span id="summarySubtotal">-</span></p>
+    <p><strong>Shipping:</strong> <span id="summaryShipping">-</span></p>
+    <p><strong>Total:</strong> <span id="summaryTotal">-</span></p>
+  </div>
+  <a href="shop.html">Continue Shopping</a>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>© 2025 Bloomify.</div>
+    <div><span class="badge">Fresh Daily</span></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

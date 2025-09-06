@@ -1,0 +1,11 @@
+about.html
+cart.html
+checkout.html
+contact.html
+images/logo.svg
+index.html
+script.js
+shop.html
+style.css
+thankyou.html
+MANIFEST.txt
